@@ -1,0 +1,33 @@
+{
+  "name": "calendar_booking",
+  "version": "1.0.0",
+  "description": "Calendar Booking Task",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "multer": "^1.4.2",
+    "node-ses": "^3.0.3",
+    "nodemon": "^2.0.3",
+    "randomstring": "^1.1.5",
+    "stripe": "^8.129.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  }
+}
